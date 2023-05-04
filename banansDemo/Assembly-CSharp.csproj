@@ -46,10 +46,8 @@
      <Compile Include="Assets\Scripts\Base\BlueBase.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
-     <Compile Include="Assets\Scripts\Operator.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Scripts\Attribute.cs" />
-     <Compile Include="Assets\Scripts\Base\EffectHurt.cs" />
      <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
      <Compile Include="Assets\Scripts\Base\RedBase.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
@@ -77,8 +75,8 @@
      <Folder Include="Assets\DogKnight\Material" />
      <Folder Include="Assets\DogKnight\Prefab" />
      <None Include="Assets\ToonSoldiers_WW2_demo\ToonSoldiers_WW2_demo_README.txt" />
-     <Folder Include="Assets\Mat" />
      <Folder Include="Assets\ToonyTinyPeople\TT_RTS\TT_RTS_standard_demo" />
+     <Folder Include="Assets\Font" />
      <Folder Include="Assets\Resources" />
      <Folder Include="Assets\DogKnight\Animator" />
      <Folder Include="Assets\Scenes\SampleScene" />
@@ -96,6 +94,7 @@
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\ToonyTinyPeople\TT_RTS\TT_RTS_standard_demo\animations" />
      <Folder Include="Assets\ToonSoldiers_WW2_demo" />
+     <Folder Include="Assets\UI" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.47f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
