@@ -4,6 +4,12 @@ using UnityEngine;
 //处理鼠标的各种事件
 public class Operator : MonoBehaviour
 {
+    private List<Vector3> spawnPoints = new List<Vector3>();
+    
+
+//检测指定坐标周围的出生点
+
+
     //兵种生成相关
     public GameObject generator;//兵种生成脚本所在对象
     private  ObjectGenerator generate;//兵种生成的方法
@@ -23,51 +29,51 @@ public class Operator : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKeyDown(KeyCode.A)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.A))
         {
             PreGenerator(0,0);
         } 
-        if (Input.GetKeyDown(KeyCode.Q)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             PreGenerator(1,0);
         }
-        if (Input.GetKeyDown(KeyCode.S)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.S))
         {
             PreGenerator(0,1);
         } 
-        if (Input.GetKeyDown(KeyCode.W)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.W))
         {
             PreGenerator(1,1);
         }
-        if (Input.GetKeyDown(KeyCode.D)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.D))
         {
             PreGenerator(0,2);
         } 
-        if (Input.GetKeyDown(KeyCode.E)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.E))
         {
             PreGenerator(1,2);
         }
-        if (Input.GetKeyDown(KeyCode.F)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.F))
         {
             PreGenerator(0,3);
         } 
-        if (Input.GetKeyDown(KeyCode.R)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.R))
         {
             PreGenerator(1,3);
         }
-        if (Input.GetKeyDown(KeyCode.G)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.G))
         {
             PreGenerator(0,4);
         } 
-        if (Input.GetKeyDown(KeyCode.T)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.T))
         {
             PreGenerator(1,4);
         }
-        if (Input.GetKeyDown(KeyCode.H)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.H))
         {
             PreGenerator(0,5);
         } 
-        if (Input.GetKeyDown(KeyCode.Y)&&GameState.Ins.gamestate==GAMESTATE.Proceed)
+        if (Input.GetKeyDown(KeyCode.Y))
         {
             PreGenerator(1,5);
         }
