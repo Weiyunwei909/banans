@@ -14,8 +14,8 @@ public class BlueBase : Base
     {
         base.Rebounddamage(target);
     }
-    protected override void OnDestroy()
+    protected override void OnDie()
     {
-        base.OnDestroy();
+        base.OnDie();
     }
 }

@@ -19,14 +19,14 @@ public class Base : MonoBehaviour
         hp -= attack;
         if (hp<=0)
         {
-            OnDestroy();
+            OnDie();
         }
     }
    protected virtual void Rebounddamage(GameObject target) //反弹伤害的重写
    {
        target.GetComponent<AI>().UpdateHP(damage);
    }
-   protected virtual void OnDestroy()
+   protected virtual void OnDie()
    {
        GameState.Ins.SetDestoryTag(tag);
        GameState.Ins.gamestate = GAMESTATE.End;

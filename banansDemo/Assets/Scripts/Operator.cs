@@ -86,12 +86,12 @@ public class Operator : MonoBehaviour
         // Debug.Log(Input.mousePosition);
         if (Camp==0)
         {
-            pos = new Vector3(2, 2f, -10);
+            pos = new Vector3(0, 2f, -6);
             dir = new Quaternion(0,0,0,0);
         }
         else
         {
-            pos = new Vector3(0, 1f, 10);
+            pos = new Vector3(0, 2, 6);
             dir = Quaternion.Euler(new Vector3(0, -180, 0));
         }
         
